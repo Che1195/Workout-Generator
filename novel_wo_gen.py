@@ -127,7 +127,7 @@ for i in accessory_block_template:
 selected_exercises = []
 
 primary_block_template = [['upper pull',1],['anterior core',1],['lower push',2],['rotational core',2]]
-workout_sheet.write('\nACCESORY BLOCK: x3\n\n')
+workout_sheet.write('\nPRIMARY BLOCK: x4\n\n')
 for i in primary_block_template:
     random_primary_block_exercise(i[0],i[1])
 
